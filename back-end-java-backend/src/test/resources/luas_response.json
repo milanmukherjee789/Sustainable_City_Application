@@ -1,0 +1,46 @@
+{
+    "stop": "Museum",
+    "created": "2023-04-20T15:59:46",
+    "message": "Red Line services operating normally",
+    "stopAbv": "MUS",
+    "direction": [
+        {
+            "name": "Inbound",
+            "tram": [
+                {
+                    "destination": "The Point",
+                    "dueMins": "3"
+                },
+                {
+                    "destination": "The Point",
+                    "dueMins": "8"
+                },
+                {
+                    "destination": "Connolly",
+                    "dueMins": "16"
+                },
+                {
+                    "destination": "The Point",
+                    "dueMins": "19"
+                }
+            ]
+        },
+        {
+            "name": "Outbound",
+            "tram": [
+                {
+                    "destination": "Saggart",
+                    "dueMins": "DUE"
+                },
+                {
+                    "destination": "Tallaght",
+                    "dueMins": "6"
+                },
+                {
+                    "destination": "Saggart",
+                    "dueMins": "11"
+                }
+            ]
+        }
+    ]
+}

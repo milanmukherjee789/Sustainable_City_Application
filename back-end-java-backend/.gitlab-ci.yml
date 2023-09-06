@@ -1,0 +1,15 @@
+image: maven:3-openjdk-8
+cache:
+  paths:
+    - .m2/repository
+stages:
+  - build
+maven-build:
+  image: maven:3-jdk-8
+  stage: build
+  tags: 
+    - windows-runner
+  script: mvn clean install
+  artifacts:
+    paths:
+      - target/ase-backend-2.6.6.jar

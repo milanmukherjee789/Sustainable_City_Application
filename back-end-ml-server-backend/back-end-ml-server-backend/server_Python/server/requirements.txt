@@ -1,0 +1,9 @@
+Django
+django-extensions
+django-filter
+djangorestframework
+djangorestframework-jsonapi
+inflection
+python-dotenv
+sqlparse
+django-celery-beat
