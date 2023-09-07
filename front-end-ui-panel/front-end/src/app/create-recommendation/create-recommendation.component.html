@@ -1,0 +1,20 @@
+<div class="card">
+    <h4 class="card-header">Create Recommendation</h4>
+    <div class="card-body">
+<form [formGroup]="createform" (ngSubmit)="createRecommendation()">
+<p>recommendation page</p>
+<label for="fname">Incident:</label>
+<input formControlName="incident" class="form-control"  type="text" id="fname" name="fname">
+<br><br>
+<label for="fname">Location:</label>
+<input formControlName="location" class="form-control"  type="text" id="fname" name="fname">
+<br><br>
+<label for="fname">Message:</label>
+<input formControlName="message" class="form-control"  type="text" id="fname" name="fname">
+<br><br>
+<button   [disabled]="loading" class="btn btn-primary">Create Recommendation</button>
+</form>
+
+</div>
+</div>
+

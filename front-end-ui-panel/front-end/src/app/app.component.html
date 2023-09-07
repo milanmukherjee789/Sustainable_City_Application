@@ -1,0 +1,86 @@
+<div class="container hamburger-container">
+<div class="container">
+  <header class="left_hand_sidebar">
+    <button
+      class="hamburger hamburger--spin"
+      [ngClass]="{ 'is-active': hamburger_toggled }"
+      type="button"
+      appHamburgerToggle
+      (click)="toggleCollapse()"
+      *ngIf="hamburgerVisible$ | async"
+    >
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+  </header>
+  <header>
+    <h1>Smart City Management Dashboard</h1>
+  </header>
+  <header></header>
+  <nav class="left_hand_sidebar">
+    <div
+      class="navigation-menu"
+      [ngClass]="{ 'show-navigation': hamburger_toggled }"
+      [hidden]="!(hamburger_toggled$ | async)"
+    >
+      <ul>
+        <li>
+          <a
+            id="hamburger-landing"
+            class="button"
+            routerLink="/landing-page"
+            routerLinkActive="activebutton"
+            ariaCurrentWhenActive="page"
+            >Landing page</a
+          >
+        </li>
+        <li>
+          <a
+            id="hamburger-map"
+            class="button"
+            routerLink="/map2"
+            routerLinkActive="activebutton"
+            ariaCurrentWhenActive="page"
+            >map</a
+          >
+        </li>
+        <li>
+          <a
+            id="hamburger-recommendation"
+            class="button"
+            routerLink="/recommendation"
+            routerLinkActive="activebutton"
+            ariaCurrentWhenActive="page"
+            >Recommendations</a
+          >
+        </li>
+        <li>
+          <a
+            class="button"
+            routerLink="/old-recommendations"
+            routerLinkActive="activebutton"
+            ariaCurrentWhenActive="page"
+            >Old Recommendations</a
+          >
+        </li>
+        <!--<li><a class="button" routerLink="/create-recommendation" routerLinkActive="activebutton"
+                  ariaCurrentWhenActive="page">Create Recommendation</a></li>-->
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+  <aside></aside>
+  <footer class="left_hand_sidebar">
+    <!-- Footer -->
+  </footer>
+  <footer>
+    <!-- Footer -->
+  </footer>
+  <footer>
+    <!-- Footer -->
+  </footer>
+</div>
+</div>

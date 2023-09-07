@@ -1,0 +1,14 @@
+
+    <p>Old recommendation</p>
+    <ul>
+      <li *ngFor="let recommendation of recommendations">
+        <span style="color:black;text-align: left">
+          ID: {{recommendation.id}}<br>
+          Incident: {{recommendation.incident}}<br>
+          Location: {{recommendation.location}}<br>
+          Message: {{recommendation.message}}<br>
+          <button type="button" (click)="onDelete(recommendation)">Delete</button>
+        </span>
+      </li>
+    </ul>
+    

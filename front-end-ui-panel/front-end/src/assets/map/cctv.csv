@@ -1,0 +1,31 @@
+id,Name,Link,Latitude,Longitude
+1,M1 (N) at J1 M50(S),https://tiitrafficdata.azurewebsites.net/api/Camera/?name=cctv-100.jpg&type=CCTVCameraImages,53.409076,-6.227970
+2,M1(S) At J1 M50,https://tiitrafficdata.azurewebsites.net/api/Camera/?name=cctv-101.jpg&type=CCTVCameraImages,53.410930,-6.224648
+3,M50(N) Before J3 (M1),https://tiitrafficdata.azurewebsites.net/api/Camera/?name=cctv-02.jpg&type=CCTVCameraImages,53.411070,-6.229781
+4,M50(N) 0.1km Before J3(M1),https://tiitrafficdata.azurewebsites.net/api/Camera/?name=procctv1.jpg&type=CCTVCameraImages,53.410956,-6.234208
+5,M50(S) 1.1 Km Before J4 (Ballymun),https://tiitrafficdata.azurewebsites.net/api/Camera/?name=cctv-504.jpg&type=CCTVCameraImages,53.410841,-6.241449
+6,M50(S) 0.5 Km Before J4 (Ballymun),https://tiitrafficdata.azurewebsites.net/api/Camera/?name=procctv3.jpg&type=CCTVCameraImages,53.410439,-6.248473
+7,M50(S) At J4 (Ballymun) - City Side,https://tiitrafficdata.azurewebsites.net/api/Camera/?name=cctv-05.jpg&type=CCTVCameraImages,53.408546,-6.264927
+8,M50(N) Before J4 (Ballymun),https://tiitrafficdata.azurewebsites.net/api/Camera/?name=cctv-07.jpg&type=CCTVCameraImages,53.408615,-6.278549
+9,M50(S) 0.7 Km After J4 (Ballymun),https://tiitrafficdata.azurewebsites.net/api/Camera/?name=procctv6.jpg&type=CCTVCameraImages,53.408444,-6.282627
+10,M50(N) 1.4km Before J4 (Ballymun),https://tiitrafficdata.azurewebsites.net/api/Camera/?name=cctv-08.jpg&type=CCTVCameraImages,53.407910,-6.293468
+11,M50(S) Off Slip At J5 (Finglas),https://tiitrafficdata.azurewebsites.net/api/Camera/?name=procctv8.jpg&type=CCTVCameraImages,53.406752,-6.303268
+12,M50(N) Off Slip At J5 (Finglas),https://tiitrafficdata.azurewebsites.net/api/Camera/?name=procctv9.jpg&type=CCTVCameraImages,53.401655,-6.318937
+13,M50(S) 1.1 Km Before J5 (Finglas),https://tiitrafficdata.azurewebsites.net/api/Camera/?name=procctv11.jpg&type=CCTVCameraImages,53.396856,-6.332518
+14,M50(N) 1.7Km Before J5 (N2),https://tiitrafficdata.azurewebsites.net/api/Camera/?name=cctv-13.jpg&type=CCTVCameraImages,53.392943,-6.343056
+15,M50(N) 0.3Km After J6 (N3),https://tiitrafficdata.azurewebsites.net/api/Camera/?name=cctv-14.jpg&type=CCTVCameraImages,53.389659,-6.351452
+16,M50(N) After J6 (N3),https://tiitrafficdata.azurewebsites.net/api/Camera/?name=cctv-68.jpg&type=CCTVCameraImages,53.386938,-6.357818
+17,M50(N) At J6 (N3) - Blanch Side,https://tiitrafficdata.azurewebsites.net/api/Camera/?name=cctv-17.jpg&type=CCTVCameraImages,53.383299,-6.363920
+18,M50(N) Before J6 (N3),https://tiitrafficdata.azurewebsites.net/api/Camera/?name=cctv-66.jpg&type=CCTVCameraImages,53.380546,-6.365724
+19,M50(S) 0.6Km After J6 (N3),https://tiitrafficdata.azurewebsites.net/api/Camera/?name=cctv-533.jpg&type=CCTVCameraImages,53.375877,-6.371134
+20,M50(S) 1.1Km After J6 (N3),https://tiitrafficdata.azurewebsites.net/api/Camera/?name=cctv-535.jpg&type=CCTVCameraImages,53.371290,-6.375854
+21,M50(S) 1.1Km Before J7 (N4),https://tiitrafficdata.azurewebsites.net/api/Camera/?name=cctv-536.jpg&type=CCTVCameraImages,53.369518,-6.378671
+22,M50(S) Before West Link,https://tiitrafficdata.azurewebsites.net/api/Camera/?name=cctv-20.jpg&type=CCTVCameraImages,53.363840,-6.382097
+23,M50(S) At J7 (N4),https://tiitrafficdata.azurewebsites.net/api/Camera/?name=cctv-21.jpg&type=CCTVCameraImages,53.358661,-6.383467
+24,M50(N) Before J7 (N4),https://tiitrafficdata.azurewebsites.net/api/Camera/?name=cctv-23.jpg&type=CCTVCameraImages,53.352345,-6.384838
+25,M50(N) 0.6km Before J7 (N4),https://tiitrafficdata.azurewebsites.net/api/Camera/?name=cctv-24.jpg&type=CCTVCameraImages,53.347710,-6.386436
+26,M50(N) 1Km Before J7 (N4),https://tiitrafficdata.azurewebsites.net/api/Camera/?name=cctv-541.jpg&type=CCTVCameraImages,53.344793,-6.387194
+27,M50(S) 1.4km Before J9 (N7),https://tiitrafficdata.azurewebsites.net/api/Camera/?name=cctv-543.jpg&type=CCTVCameraImages,53.336664,-6.386001
+28,M50(S) 1Km Before J9 (N7),https://tiitrafficdata.azurewebsites.net/api/Camera/?name=cctv-544.jpg&type=CCTVCameraImages,53.333850,-6.383721
+29,M50(N) 0.5Km After J9 (N7),https://tiitrafficdata.azurewebsites.net/api/Camera/?name=cctv-545.jpg&type=CCTVCameraImages,53.327405,-6.376729
+30,M50(S) At J9 (N7),https://tiitrafficdata.azurewebsites.net/api/Camera/?name=cctv-28.jpg&type=CCTVCameraImages,53.320455,-6.368867

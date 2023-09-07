@@ -1,0 +1,28 @@
+<div class="container">
+    <p>Create Recommendation</p>
+    <ul>
+      <li *ngFor="let recommendation of recommendations">
+        <span style="color:black;text-align: left">
+          ID: {{recommendation.id}}<br>
+          Incident: {{recommendation.incident}}<br>
+          Location: {{recommendation.location}}<br>
+          Message: {{recommendation.message}}<br>
+          <!--<button type="button" (click)="onArchive(recommendation)">Archive</button>-->
+          <button type="button" (click)="onDelete(recommendation)">Delete</button>
+        </span>
+      </li>
+    </ul>
+    
+    <label for="incident">Incident:</label>
+    <input type="text" id="incident" name="incident" [(ngModel)]="incident">
+    <br><br>
+    <label for="location">Location:</label>
+    <input type="text" id="location" name="location" [(ngModel)]="location">
+    <br><br>
+    <label for="message">Message:</label>
+    <input type="text" id="message" name="message" [(ngModel)]="message">
+    <br><br>
+    
+    <button type="button" (click)="createRecommendation()">Create Recommendation</button>
+  </div>
+    

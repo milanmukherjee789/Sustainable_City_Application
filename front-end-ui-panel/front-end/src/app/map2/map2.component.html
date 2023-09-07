@@ -1,0 +1,93 @@
+<div class="map2-container">
+  <div class="left-panel">
+    <div class="controls">
+      <div class="control-row">
+        <select [(ngModel)]="selectedBusRoute">
+          <option *ngFor="let busRoute of busRoutes" [ngValue]="busRoute">{{ busRoute.name }}</option>
+        </select>
+        <button (click)="showBusRoute()">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span>Bus</span>
+          </button>
+      </div>
+      <div class="control-row">
+        <select [(ngModel)]="selectedLuasRoute">
+          <option *ngFor="let busRoute of luasRoutes" [ngValue]="busRoute">{{ busRoute.name }}</option>
+        </select>
+        <button (click)="showLuasRoute()">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span>Luas</span>
+          </button>
+      </div>
+      <div class="control-row">
+        <button class="taxi-button" (click)="showAllTaxiRoutes()">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span>Taxi</span>
+          </button>
+      </div>
+      <div class="control-row">
+        <button class="bike-button" (click)="toggleBikeStops()">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span>Bike</span>
+          </button>
+      </div>
+      <div class="control-row">
+        <button class="cctv-button" (click)="toggleCctvStops()">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span>CCTV</span>
+          </button>
+      </div>
+      <div class="control-row">
+        <button class="taxire-button" (click)="toggleClusters()">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span>TaxiRecom</span>
+          </button> 
+      </div>
+      <div class="control-row">
+        <button class="tweet-button" (click)="toggleTweet()">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span>Tweet</span>
+          </button> 
+      </div>
+    </div>
+  </div>
+
+  <div class="map2-frame">
+    <div id="map"></div>
+  </div>
+  <div class="right-panel">
+    <div id="clustermessage" class="message-container1">
+      <h4>Taxi Recommendations</h4>
+      {{ clusterMessage }}
+    </div>
+    <div id="tweetmessage" class="message-container2">
+      <h4>Tweet</h4>
+      <span style="font-weight: bold;">Recommendations:</span> {{ tweetRecommendationMessage }}<br>
+      <br>
+      <span style="font-weight: bold;">Timestamp: </span>{{ tweetTimestamp }}<br>
+      <br>
+      <span style="font-weight: bold;"> Post message: </span>{{ tweetPostMessage }}
+    </div>
+  </div>
+</div>

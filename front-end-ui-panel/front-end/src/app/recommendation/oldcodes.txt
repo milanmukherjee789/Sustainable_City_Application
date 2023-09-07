@@ -1,0 +1,57 @@
+import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { of } from 'rxjs';
+
+
+@Component({
+  selector: 'recommendation',
+  templateUrl: './recommendation.component.html',
+  styleUrls: ['./recommendation.component.scss']
+})
+export class RecommendationComponent {
+      onArchive(recommendation: { id: number; text: string; }) {
+
+        this.http.get('apiEndpoint').subscribe((json: any) => {
+
+
+
+        })
+        // send to server
+        //update recommendations
+
+      }
+      onDelete(recommendation: { id: number; text: string; }) {
+      // send to server
+      //update recommendations
+      }
+      collapse: boolean;
+      recommendations$ =of([ {id:1,text: "rec1"},{id:2,text: "rec2"}]);
+      constructor(private http: HttpClient) { 
+      }
+      public totalAngularPackages: any;
+      public bikePackages: any = "test";
+      public luasAPI(){
+        this.http.get<any>('http://10.6.39.91:9090/request/getLuas/ran').subscribe(data => {
+                this.totalAngularPackages = data.total;
+            })     
+      }
+      public bikeAPI() {
+        this.http.get<any>('http://10.6.39.91:9090/request/getBikes').subscribe(data => {
+                this.bikePackages = data.total;
+                this.bikePackages = "hello"
+            })    
+        
+      }
+      public busAPI() {
+        this.http.get<any>('http://10.6.39.91:9090/request/getBikes').subscribe(data => {
+                this.bikePackages = data.total;
+            })    
+        
+      }
+      public twtAPI() {
+        this.http.get<any>('http://10.6.39.91:9090/request/getTwitter').subscribe(data => {
+                this.bikePackages = data.total;
+            })    
+        
+      }
+}
